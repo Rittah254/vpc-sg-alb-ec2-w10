@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket  = "rw-w7-terraformstatebucket"
+    bucket  = "replace here with backend name"
     key     = "alb/terraform.state"
     region  = "us-east-1"
     encrypt = true
